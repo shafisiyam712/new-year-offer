@@ -151,20 +151,52 @@ margin-right: 400px;
 margin-top: 30px;
 
  }
+ /* invitation */
+.invitation{
+ width: 1320px;
+height: 482px;
+margin: 0 auto;
+margin-bottom: 90px;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    width: 167px;
+    height: 56px;
+    color: white;
+    border-radius: 8px;
+background: rgb(255, 0, 0);
+}
+.card p{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+}
+
+
  /* holiday sales */
 
 .holiday{
     width: 1320px;
 height: 986.07px;
 margin: 0 auto;
-border: 2px solid black;
 margin-bottom: 90px;
 position: relative;
 }
 .holi-container{
     width: 100%;
     height: 324px;
-    border: 2px solid rgb(226, 52, 52);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,10 +240,11 @@ height: 96px;
   justify-content: space-between;
 }
 .girl{
-    width: 424px;
-    height: 450px;
+    width: 405px;
+    height: 400px;
     position: relative;
-    left: 29%;
+    left: 30%;
+    bottom: 2%;
     
 }
 .discount{
